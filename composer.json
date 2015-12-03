@@ -9,6 +9,12 @@
             "email": "andrii.navrotskii@gmail.com"
         }
     ],
+    "repositories":[
+        {
+            "type":"git",
+            "url":"http://github.com/andriiNavrotskii/hexa"
+        }
+    ],
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0"
