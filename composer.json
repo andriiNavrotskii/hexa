@@ -2,20 +2,20 @@
     "name": "navrotskii/hexa",
     "description": "Test",
     "type": "library",
-    "license": "MID",
+    "license": "MIT",
     "authors": [
         {
             "name": "Andri NAvrotskii",
             "email": "andrii.navrotskii@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0"
     },
     "autoload": {
         "psr-4": {
-            "Hexa": "src/"
+            "Hexa\\": "src/"
         }
     }
 }
