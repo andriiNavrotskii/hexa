@@ -24,18 +24,16 @@
                     "url":"http://github.com/andriiNavrotskii/hexa",
                     "reference":"master"
                 },
-                "minimum-stability": "alpha"
+                "minimum-stability": "alpha",
+                "autoload": {
+                    "psr-4": {
+                        "Navrotskii\\Hexa\\": "src/"
+                    }
+                }
             }
         }
     ],
 
-    "require":{
-        "php":">=5.4.0"
-    },
 
-    "autoload": {
-        "psr-4": {
-            "Navrotskii\\Hexa\\": "src/"
-        }
-    }
+
 }
