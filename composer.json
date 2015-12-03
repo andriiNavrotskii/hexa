@@ -1,39 +1,14 @@
 {
-    "repositories":[
+    "name": "navrotskii/hexa",
+    "description": "Test",
+    "type": "library",
+    "license": "MID",
+    "authors": [
         {
-            "type":"git",
-            "url":"http://github.com/andriiNavrotskii/hexa"
-        },
-
-        {
-            "type":"package",
-            "package":{
-                "name":"navrotskii/hexa",
-                "description": "Composer package by Navrotskii",
-                "type": "library",
-                "license": "MIT",
-                "version":"0.1",
-                "authors": [
-                    {
-                        "name": "Andrii Navrotskii",
-                        "email": "andrii.navrotskii@gmail.com"
-                    }
-                ],
-                "source":{
-                    "type":"git",
-                    "url":"http://github.com/andriiNavrotskii/hexa",
-                    "reference":"master"
-                },
-                "minimum-stability": "alpha",
-                "autoload": {
-                    "psr-4": {
-                        "Navrotskii\\Hexa\\": "src/"
-                    }
-                }
-            }
+            "name": "Andri NAvrotskii",
+            "email": "andrii.navrotskii@gmail.com"
         }
     ],
-
-
-
+    "minimum-stability": "dev",
+    "require": {}
 }
