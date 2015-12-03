@@ -1,7 +1,7 @@
 <?php
 
-namespace Navrotskii\Hexa;
-
+namespace Hexa;
+use Exception;
 
 /**
 * Класс загрузки изображения с удаленного хоста
