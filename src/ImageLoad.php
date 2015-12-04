@@ -1,5 +1,5 @@
 <?php
-namespace Hexa;
+namespace AndriiNavrotskii\Hexa;
 
 use Exception;
 
@@ -14,7 +14,7 @@ use Exception;
 * @method void setRewriteOff()
 * @method void go(string $input, string $new_name) 
 */
-class imageLoad
+class ImageLoad
 {
     /*
     * Путь куда надо сохранить

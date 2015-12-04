@@ -1,5 +1,7 @@
 <?php
-require 'image_load.php';
+use AndriiNavrotskii\Hexa\ImageLoad;
+
+require_once '/vendor/autoload.php';
 
 
 class imageLoadTest extends PHPUnit_Framework_TestCase
