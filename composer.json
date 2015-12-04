@@ -1,0 +1,27 @@
+{
+    "name": "andriiNavrotskii/Hexa",
+    "description": "Hexa",
+    "license": "MIT",
+    "keywords": ["Hexa"],
+    "authors": [
+        {
+            "name": "andriiNavrotskii",
+            "email": "name@domain.com"
+        }
+    ],
+    "repositories":[
+        {
+            "type":"git",
+            "url":"http://github.com/andriiNavrotskii/hexa"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "AndriiNavrotskii\\Hexa\\": "src"
+        }
+    }
+}
